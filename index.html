@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ivan Nunes | Redes & Tecnologia</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body class="font-inter bg-dark text-white">
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">Ivan Nunes</h1>
-      <nav class="nav">
-        <a href="#servicos">Serviços</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Nunes | Soluções Tecnológicas</title>
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Instalação de redes, câmeras, computadores, sites e manutenção com padrão estético e precisão técnica.">
+    <meta name="keywords" content="rede, informática, instalação, roteador, câmera, cabo de rede, site, manutenção, TI, Ivan Nunes, Cachoeirinha, técnico, suporte">
+    <meta name="author" content="Ivan Nunes">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ivan Nunes | Soluções Tecnológicas" />
+    <meta property="og:description" content="Serviços de redes e informática com padrão estético elevado." />
+    <meta property="og:image" content="destaque.png" />
+    <meta property="og:url" content="https://seusite.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <header class="flex items-center justify-between p-6 px-8 border-b border-gray-700">
+      <img src="destaqueicon.png" alt="Logo Ivan Nunes" class="w-20 h-20 rounded-full border-2 border-emerald-400" />
+      <nav class="space-x-6 text-sm text-gray-300">
+        <a href="#servicos" class="hover:text-emerald-400">Serviços</a>
+        <a href="#sobre" class="hover:text-emerald-400">Sobre</a>
+        <a href="#contato" class="hover:text-emerald-400">Contato</a>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <section class="hero">
-    <h2 class="hero-title">Soluções em Redes & Tecnologia</h2>
-    <p class="hero-subtitle">Instalação e manutenção de redes, câmeras, computadores e muito mais, com padrão estético elevado.</p>
-    <a href="#contato" class="btn">Solicitar Orçamento</a>
-  </section>
+    <section class="text-center py-20 px-6">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-emerald-400">Soluções Tecnológicas</h1>
+      <p class="text-lg max-w-xl mx-auto text-gray-300">
+        Instalação e manutenção de redes, câmeras, computadores e muito mais, com padrão estético elevado.
+      </p>
+      <a href="#contato" class="mt-6 inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-6 rounded-full transition">Solicitar Orçamento</a>
+    </section>
 
-  <section id="servicos" class="section bg-alt">
-    <div class="container">
-      <h3 class="section-title">Serviços</h3>
-      <div class="grid">
-        <div class="card">
-          <h4>📡 Roteadores e Repetidores</h4>
+    <section id="servicos" class="py-16 px-6 bg-[#0f0f0f]">
+      <h2 class="text-3xl font-semibold text-center text-emerald-400 mb-10">Serviços</h2>
+      <div class="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">📡 Roteadores e Repetidores</h3>
           <p>Instalação e manutenção de pontos de internet com ótimo sinal.</p>
         </div>
-        <div class="card">
-          <h4>🔌 Cabos de Rede</h4>
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">🔌 Cabos de Rede</h3>
           <p>Passagem, organização e crimpagem de cabos para um ambiente limpo e funcional.</p>
         </div>
-        <div class="card">
-          <h4>🎥 Câmeras de Segurança</h4>
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">🎥 Câmeras de Segurança</h3>
           <p>Instalação de sistemas de monitoramento com padrão estético profissional.</p>
         </div>
-        <div class="card">
-          <h4>💻 Manutenção de Computadores</h4>
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">💻 Manutenção de Computadores</h3>
           <p>Montagem, limpeza e upgrades para alto desempenho.</p>
         </div>
-        <div class="card">
-          <h4>🌐 Sites e Sistemas Simples</h4>
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">🌐 Sites e Sistemas Simples</h3>
           <p>Criação de páginas web modernas e aplicações sob demanda.</p>
         </div>
-        <div class="card">
-          <h4>🧰 Switch / RouterBoard</h4>
+        <div class="bg-black/40 border border-emerald-500/30 p-6 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">🧰 Switch / RouterBoard</h3>
           <p>Configuração de redes profissionais e robustas para empresas ou residências.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="sobre" class="section">
-    <div class="container text-center">
-      <h3 class="section-title">Sobre Mim</h3>
-      <p class="text">Sou técnico com 3 anos de experiência em telecomunicações, especializado em redes residenciais e comerciais. Meu diferencial é o cuidado com a estética e a capacidade de acessar forros e telhados baixos, garantindo um serviço limpo e bem instalado.</p>
-    </div>
-  </section>
+    <section id="sobre" class="py-20 px-6 text-center">
+      <h2 class="text-3xl font-semibold text-emerald-400 mb-6">Sobre Mim</h2>
+      <p class="max-w-3xl mx-auto text-gray-300">
+        Sou técnico desde 2022, com experiência em telecomunicações e especializado em redes residenciais e comerciais. Meu diferencial é o cuidado com a estética e a capacidade de acessar telhados e forros nas mais complexas adversidades, garantindo um serviço limpo e bem executado.
+      </p>
+    </section>
 
-  <section id="contato" class="section bg-alt">
-    <div class="container text-center">
-      <h3 class="section-title">Contato</h3>
-      <p class="text mb-4">📱 WhatsApp: <a href="https://wa.me/5551985690102" class="link">(51) 98569-0102</a></p>
-      <p class="text">📸 Instagram: <a href="https://instagram.com/ivanunes.ti" target="_blank" class="link">@ivanunes.ti</a></p>
-    </div>
-  </section>
+    <section id="contato" class="py-20 px-6 bg-[#0f0f0f] text-center">
+      <h2 class="text-3xl font-semibold text-emerald-400 mb-6">Contato</h2>
+      <p class="mb-4 text-gray-300">📱 WhatsApp: <a href="https://wa.me/5551985690102" class="text-emerald-400 hover:underline">(51) 98569-0102</a></p>
+      <p class="text-gray-300">📸 Instagram: <a href="https://instagram.com/ivanunes.ti" class="text-emerald-400 hover:underline" target="_blank">@ivanunes.ti</a></p>
+    </section>
 
-  <footer class="footer">
-    © 2025 Ivan Nunes. Todos os direitos reservados.
-  </footer>
-</body>
+    <footer class="text-center py-6 text-sm text-gray-500">
+      © 2025 Ivan Nunes. Todos os direitos reservados.
+    </footer>
+  </body>
 </html>
